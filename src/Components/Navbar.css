@@ -1,0 +1,49 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.navbar__black{
+    background: #1e1e1e;
+    padding-bottom: 10px;
+}
+
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 90%;
+    padding-top: 10px;
+}
+
+.navbar__logo{
+    width: 80px;
+    object-fit: contain;
+}
+
+.btn{
+    padding: 10px 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-outline-danger{
+    color: #df0909;
+    border: 2px solid #df0909;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-outline-danger:hover{
+    background: #df0909;
+    color: #fff;
+}
+
+.btn-outline-danger:focus{
+    box-shadow: 0px 0px 5px 5px #b90303;
+}

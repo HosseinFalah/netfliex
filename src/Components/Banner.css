@@ -1,0 +1,99 @@
+.banner{
+    position: relative;
+    color: #fff;
+}
+
+.img__fluid{
+    width: 100%;
+    object-fit: cover;
+    max-height: 70vh;
+}
+
+.banner__contents{
+    position: absolute;
+    top: 0;
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 200px;
+}
+
+.banner__title{
+    font-size: 2rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.banner__description{
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    max-width: 360px;
+    font-weight: 500;
+    height: 80px;
+}
+
+.banner__button{
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    border-radius: 0.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #3939399c;
+    transition: all 0.6s;
+}
+
+.banner__button:hover{
+    color: #000;
+    background: #e6e6e6;
+}
+
+.banner__fadeBottim{
+    height: 7.5rem;
+    background-image: linear-gradient(180deg, transparent, #2b2b2b9c, #121212);
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+@media screen and (max-width: 480) {
+    .img__fluid{
+        width: 100%;
+        object-fit: contain;
+        max-height: 60vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner__contents{
+        position: absolute;
+        top: -60px;
+        margin-left: 30px;
+        padding-top: 140px;
+        height: 100px;
+    }
+    
+    .banner__title{
+        font-size: 1.25rem;
+        font-weight: 700;
+        padding-bottom: 0.3rem;
+    }
+    
+    .banner__description{
+        width: 45rem;
+        line-height: 1.5;
+        padding-top: 1rem;
+        font-size: 0.8rem;
+        max-width: 360px;
+        font-weight: 500;
+        height: 40px;
+    }
+    
+}
