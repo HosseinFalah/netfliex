@@ -15,7 +15,6 @@ const Banner = () => {
         fetchData()
     }, [])
 
-    console.log(movie);
     const Truncate = (title, numberTitle) => {
         return title?.length > numberTitle ? title.substr(0, numberTitle - 1) + "..." : title;
     }
